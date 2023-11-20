@@ -1,0 +1,391 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <meta name="copyright" content="(C) Copyright 2023">
+      <meta name="generator" content="DITA-OT">
+      <link rel="stylesheet" type="text/css" href="css/commonltr.css">
+      
+      <link rel="stylesheet" type="text/css" href="/css/common-extended.css">
+      <link rel="stylesheet" type="text/css" href="css/custom.css">
+      
+      <title>System Administration</title>
+   </head>
+   <head>
+      <link rel="icon" type="image/x-icon" href="audience_logo/Favicon.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" integrity="sha384-Ay26V7L8bsJTsX9Sxclnvsn+hkdiwRnrjZJXqKmkIDobPgIIWBOVguEcQQLDuhfN" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4"></script></head>
+   <body class="tocMain" id="ditamap-4418">
+      <div class="ditasearch" data-searchroot=""></div>
+      <div class="modal fade" id="searchBoxModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog modal-dialog-scrollable modal-fullscreen-lg-down">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <div class="serachAndIcon styleSearch d-flex justify-content-between align-items-start">
+                     <div class="d-flex align-items-start w-100">
+                        <div class="ditasearch w-100" data-searchroot=""></div>
+                     </div><button class="searchButton mt-2" type="button" data-bs-dismiss="modal" aria-label="Close">Cancel</button></div>
+               </div>
+               <div id="nosearch" style="display: none; padding: 2rem 0; text-align:center;"></div>
+            </div>
+         </div>
+      </div>
+      <div class="imgback d-none"></div>
+      <div class="bs-container container-fluid bd-gutter halpBgColor hideSidebarInLandingPage">
+         <div class="bs-sidebar bs-sidebarTOC d-none d-lg-block">
+            <div class="logo_sidebar d-none d-lg-block sticky-top"><a class="navbar-brand dynamicLogo" href="/"><img src="audience_logo/Logo.png"></a></div>
+            <nav id="myUL" class="myUL">
+               <ul class="map">
+                  <li class="topicref topichead">
+                     <div class="caret d-flex justify-content-between">
+                        <div class="d-flex align-items-center iconAndTitle">System Administration</div><svg xmlns="http://www.w3.org/2000/svg" class="menu__icon" width="25" height="25" viewBox="0 0 24 24">
+                           <path fill="currentColor" d="M11.7 15.3q-.475.475-1.087.213T10 14.575v-5.15q0-.675.613-.938T11.7 8.7l2.6 2.6q.15.15.225.325T14.6 12q0 .2-.075.375t-.225.325l-2.6 2.6Z"></path></svg></div>
+                     <ul class="nested">
+                        <li class="topicref"><a href="Masterworks/Administration/Admin.html">Administration</a></li>
+                        <li class="topicref"><a href="Masterworks/Administration/System_Configurations/SysConfig.html">System Configurations</a><ul class="nested">
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/App_Settings.html"> Application Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/AuthLoginSettings.html">Authentication and Login Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/WFSettings.html">Workflow Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/ConfigMobSettings.html">Mobile Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/GIS/GIS_Settings/GIS.html">GIS</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/System_Configurations/GIS/GIS_Settings/GIS_Configuration.html">GIS Settings</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/System_Configurations/GIS/ESRI_Logs.html">ESRI Logs</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Funct_Cnfig.html">Functional Configurations</a><ul class="nested">
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Featuresettngs.html">Feature Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/CnfigPlngMgmt.html">Configuring Planning Management</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/CnfigBdgtMgmt.html">Configuring Budget Management</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/ConfigCntMgmt.html">Managing Contract Configurations</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/CnfigRsrceMgmt.html">Configuring Resource Management</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/IssueLogColorConfig.html">Configuring the Issue Log List Page</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/MobAppSettings.html">Configuring Mobile Application Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/MeetingSettings.html">Enabling Meeting Scheduler</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/ImpNotifics.html">Important Notifications</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Report_Management/RepMgmt.html">Report Management</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Report_Management/CnfigRep.html">Configuring a Report</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Report_Management/UnsubsReps.html">Unsubscribing to Reports</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Business_Units/BUs.html">Business Units</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Business_Units/CreateBU.html">Creating a Business Unit</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Business_Units/AssignBUtoUser.html">Assigning Business Units to a User</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Business_Units/RevokeBU.html">Revoking Business Units from a User Account</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Business_Units/DeactBU.html">Deactivating Business Units</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="topicref"><a href="Masterworks/Administration/User_Management/UserMgmt.html">User Management</a><ul class="nested">
+                              <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/UserAccs.html">User Accounts</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/Creating_User_Account/CreateUserAcc.html">Creating a User Account</a></li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/Creating_User_Account/CreateUserAccsBulk.html">Creating Multiple User Accounts in Bulk</a></li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/EditUserAccDets.html">Editing User Account Details</a></li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/ChangePassword.html">Changing the Password of a User Account</a></li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/Changing_the_Status_of_a_User_Account/UserAccStatus.html">Changing the Status of a User Account</a><ul class="nested">
+                                          <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/Changing_the_Status_of_a_User_Account/ActUsrAcc.html">Activating a User Account</a></li>
+                                          <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/Changing_the_Status_of_a_User_Account/DeActUserAcc.html">Deactivating a User Account</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/UnlockUsrAcc.html">Unlocking a User Account</a></li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/GenUsrAccReps.html">Generating User Accounts Reports</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Security_Roles/SecurityRoles.html">Security Roles</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Security_Roles/CreateRole.html">Creating Security Roles</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Security_Roles/AssignRoletoUsr.html">Assigning a Role to Users</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Security_Roles/EditRoleInfo.html">Editing Role Information</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Security_Roles/DelSecRole.html">Deleting a Security Role</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Permissions/ConfigRolePerms.html">Permissions</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Permissions/ConfigPerms-Role.html">Configuring Role Permissions</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Permissions/ConfigPerm-Form.html">Configuring Form Permissions</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Permissions/ConfigPermis-Bulk.html">Configuring Permissions in Bulk Using an Excel Workbook</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Auto_Invite/AutoInvite.html">Auto Invite</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Auto_Invite/CrtAIRule.html">Creating an Auto Invite Rule</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Auto_Invite/EditAIRule.html">Editing an Auto Invite Rule</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Auto_Invite/ExctAIRul.html">Administering an Auto Invite Rule</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Auto_Invite/DelAIRule.html">Deleting an Auto Invite Rule</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Registrations/OnlineAccRegs.html">Managing Online Account Registration Requests</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Registrations/ApprPndRegReq.html">Approving a Pending Registration Request</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Registrations/RjctPndRegReq.html">Rejecting a Pending Registration Request</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/Authentication_and_Login_Settings_with_AIS/EIP_User.html">External Identity Provider User</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Users/Online_Users.html">Online Users</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Users/ViewOnlineUsrs.html">Viewing the List of Online Users</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Users/LogOffUserRemotely.html">Logging Out a User</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/UsrAcctn_config.html">User Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/DOA.html">Delegation of Authority</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/Delegate.html">Delegating Authorities</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/EditDOA.html">Editing Delegation Details</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/ViewDOA.html">Viewing Delegation Details</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/RevkDeleg.html">Revoking a Delegation</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/DelDOA.html">Deleting a Delegated Record</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/ConfigToolkit.html">Configuration Toolkit</a><ul class="nested">
+                              <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/WFMgmt.html">Workflow Management</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/CreateWF.html">Creating a Workflow</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/CreateWFSimple.html">Creating a Workflow Using Simple Mode</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/CreateWFAdv.html">Creating a Workflow Using Advanced Mode</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/EditWF.html">Editing a Workflow</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/PublishWF.html">Publishing a Workflow</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Form_Builder/FormBuilder.html">Form Builder</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Form_Builder/ImportingXMLFileorFormintoFormBuilder.html">Importing XML File or Form into Form Builder</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Form_Builder/UsingFormBuilder.html">Creating a Form Using Form Builder</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Form_Builder/PublishForm.html">Publishing a Form</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="topicref"><a href="Masterworks/CoSP/Administration/ViewntegrLogs.html">Viewing the Integration Logs</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+         <div class="h-100">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" id="mainHeaderTOC">
+               <div class="container-fluid cover__header px-3">
+                  <div class="bd-navbar-toggle hide-print ignore-this"><button class="navbar-toggler p-2" type="button" aria-label="Toggle docs navigation" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="bi bi-list"></i></button></div><a class="navbar-brand text-center dynamicLogo d-block d-lg-none" href="/"><img src="audience_logo/Logo.png"><div class="mainDitaMapTitle mobileDitaTitle  ignore-this no-print"></div></a><button class="navbar-toggler border-0 hide-print no-print ignore-this menuButtonRight" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-three-dots"></i></button><div class="collapse navbar-collapse hide-print ignore-this no-print" id="navbarSupportedContent">
+                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><span class="mainDitaMapTitle d-none d-lg-block  ignore-this no-print"></span></li>
+                     </ul>
+                     <div class="printBtn me-lg-3 mb-3 mb-lg-0 no-print d-flex align-items-center"><a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 20 20" fill="none">
+                              <mask id="mask0_3_2825" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+                                 <rect width="20" height="20" fill="var(--primary-400)"></rect>
+                              </mask>
+                              <g mask="url(#mask0_3_2825)">
+                                 <path d="M5.00004 15.8333H7.50004V10.8333H12.5V15.8333H15V8.33329L10 4.58329L5.00004 8.33329V15.8333ZM5.00004 17.5C4.54171 17.5 4.14935 17.3368 3.82296 17.0104C3.49657 16.684 3.33337 16.2916 3.33337 15.8333V8.33329C3.33337 8.0694 3.3924 7.8194 3.51046 7.58329C3.62851 7.34718 3.79171 7.15274 4.00004 6.99996L9.00004 3.24996C9.15282 3.13885 9.31254 3.05551 9.47921 2.99996C9.64587 2.9444 9.81948 2.91663 10 2.91663C10.1806 2.91663 10.3542 2.9444 10.5209 2.99996C10.6875 3.05551 10.8473 3.13885 11 3.24996L16 6.99996C16.2084 7.15274 16.3716 7.34718 16.4896 7.58329C16.6077 7.8194 16.6667 8.0694 16.6667 8.33329V15.8333C16.6667 16.2916 16.5035 16.684 16.1771 17.0104C15.8507 17.3368 15.4584 17.5 15 17.5H10.8334V12.5H9.16671V17.5H5.00004Z" fill="var(--primary-400)"></path>
+                              </g></svg></a><a href="./pdf/main_docs.pdf" download="" class="mx-4 d-flex align-items-center" id="dwnlAndLoader"><svg xmlns="http://www.w3.org/2000/svg" class="" id="download-btn" width="25" height="25" viewBox="0 0 31.99 24.81">
+                              <path fill="var(--primary-400)" d="M32,16.45v8.36H0V16.45H1.75V23H30.18V16.45ZM24.84,6.76h-5V0h-8V6.76h-5l9.08,11.39Z"></path></svg></a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="me-3 ms-2" onclick="printPage()" version="1.1" width="26" height="32" id="printBTN" x="0px" y="0px" viewBox="0 0 15.9 12.5" style="enable-background:new 0 0 15.9 12.5;" xml:space="preserve">
+                           
+                           <path fill="var(--primary-400)" d="M15.9,5.7v5.8h-3.4V11c0-0.5,0.4-1,0.9-1h1V7.3H1.5V10h0.9c0.5,0,0.9,0.4,1,0.9v0.5H0V5.7H15.9z M5.1,9l-0.7,3.5h7.2L10.8,9                   H5.1z M2.9,9H4V7.9H2.9V9z M5.7,0.8h2.8v0.7c0,0.6,0.4,1,0.9,1c0,0,0.1,0,0.1,0h0.7v1.7H11V2.6l-0.8-0.8l-1-1L8.4,0H4.9v4.2h0.8V0.8                   z"></path>
+                           </svg></div>
+                     <div class="d-flex searchBoxWrapper no-print" role="search"><input autocomplete="off" id="headerSearchBox" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" data-bs-toggle="modal" data-bs-target="#searchBoxModal"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 1024 1024">
+                           <path fill="#000" d="M1014.64 969.04L703.71 656.207c57.952-69.408 92.88-158.704 92.88-256.208c0-220.912-179.088-400-400-400s-400 179.088-400 400s179.088 400 400 400c100.368 0 192.048-37.056 262.288-98.144l310.496 312.448c12.496 12.497 32.769 12.497 45.265 0c12.48-12.496 12.48-32.752 0-45.263zM396.59 736.527c-185.856 0-336.528-150.672-336.528-336.528S210.734 63.471 396.59 63.471c185.856 0 336.528 150.672 336.528 336.528S582.446 736.527 396.59 736.527z"></path></svg></div>
+                  </div>
+               </div>
+            </nav>
+            <div class="bs-main bs-mainWithoutFR" id="tocContent" style="min-height:calc(100vh - 112px);">
+               <article role="article">
+                  <div class="coverImage"></div>
+                  <div class="landingPageCards d-none">
+                     <div class="bigCard d-flex flex-column-reverse flex-lg-row">
+                        <div class="leftCard h-100 me-0 me-md-4">
+                           <div class="content_wrapper">
+                              <h2>Introduction</h2>
+                              <p>
+                                 The Masterworks solution suite is a fully integrated cloud-based business process
+                                 automation
+                                 solution and the best-in-class capital program and project lifecycle management solution
+                                 for all
+                                 stakeholders in a capital program lifecycle.
+                                 </p>
+                              <p>
+                                 The Masterworks solution suite is a fully integrated cloud-based business process
+                                 automation
+                                 solution and the best-in-class capital program and project lifecycle management solution
+                                 for all
+                                 stakeholders in a capital program lifecycle.
+                                 </p>
+                           </div>
+                           <div class="small__card"></div>
+                        </div>
+                        <div class="rightCard mx-auto" id="leftSmallCard">
+                           <div class="rightCardContent__wrapper d-flex pb-5">
+                              <div class="left">
+                                 <div class="smallCard d-flex flex-column justify-content-center align-items-center">
+                                    <div class="cardIcon"><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                                          <path d="M24.75 32.9999H30.25C31.0291 32.9999 31.6822 32.7366 32.2092 32.2092C32.7366 31.6822 32.9999 31.0291 32.9999 30.25C32.9999 29.4709 32.7366 28.8178 32.2092 28.2905C31.6822 27.7635 31.0291 27.5 30.25 27.5H24.75C23.9708 27.5 23.3177 27.7635 22.7906 28.2905C22.2635 28.8178 22 29.4709 22 30.25C22 31.0291 22.2635 31.6822 22.7906 32.2092C23.3177 32.7366 23.9708 32.9999 24.75 32.9999ZM24.75 24.75H41.2499C42.029 24.75 42.6824 24.4865 43.2094 23.9594C43.7364 23.4323 44.0001 22.7791 44.0001 22C44.0001 21.2208 43.7364 20.5677 43.2094 20.0406C42.6824 19.5135 42.029 19.25 41.2499 19.25H24.75C23.9708 19.25 23.3177 19.5135 22.7906 20.0406C22.2635 20.5677 22 21.2208 22 22C22 22.7791 22.2635 23.4323 22.7906 23.9594C23.3177 24.4865 23.9708 24.75 24.75 24.75ZM24.75 16.5H41.2499C42.029 16.5 42.6824 16.2365 43.2094 15.7094C43.7364 15.1823 44.0001 14.5291 44.0001 13.75C44.0001 12.9708 43.7364 12.3177 43.2094 11.7906C42.6824 11.2635 42.029 11 41.2499 11H24.75C23.9708 11 23.3177 11.2635 22.7906 11.7906C22.2635 12.3177 22 12.9708 22 13.75C22 14.5291 22.2635 15.1823 22.7906 15.7094C23.3177 16.2365 23.9708 16.5 24.75 16.5ZM16.5 44.0001C14.9875 44.0001 13.6927 43.4616 12.6156 42.3844C11.5385 41.3073 11 40.0124 11 38.5V5.49998C11 3.98749 11.5385 2.6927 12.6156 1.61561C13.6927 0.538527 14.9875 0 16.5 0H49.4999C51.0126 0 52.3072 0.538527 53.3843 1.61561C54.4614 2.6927 55 3.98749 55 5.49998V38.5C55 40.0124 54.4614 41.3073 53.3843 42.3844C52.3072 43.4616 51.0126 44.0001 49.4999 44.0001H16.5ZM16.5 38.5H49.4999V5.49998H16.5V38.5ZM5.49998 55C3.98749 55 2.6927 54.4614 1.61561 53.3843C0.538527 52.3072 0 51.0126 0 49.4999V13.75C0 12.9708 0.263538 12.3177 0.790614 11.7906C1.31769 11.2635 1.97083 11 2.74999 11C3.52915 11 4.18229 11.2635 4.70936 11.7906C5.23644 12.3177 5.49998 12.9708 5.49998 13.75V49.4999H41.2499C42.029 49.4999 42.6824 49.7636 43.2094 50.2906C43.7364 50.8176 44.0001 51.4707 44.0001 52.2501C44.0001 53.0292 43.7364 53.6823 43.2094 54.2093C42.6824 54.7363 42.029 55 41.2499 55H5.49998Z" fill="#12636A"></path></svg></div>
+                                    <div class="cardTitle">
+                                       Masterwork
+                                       </div>
+                                 </div>
+                                 <div class="smallCard d-flex flex-column justify-content-center align-items-center">
+                                    <div class="cardIcon"><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                                          <path d="M24.75 32.9999H30.25C31.0291 32.9999 31.6822 32.7366 32.2092 32.2092C32.7366 31.6822 32.9999 31.0291 32.9999 30.25C32.9999 29.4709 32.7366 28.8178 32.2092 28.2905C31.6822 27.7635 31.0291 27.5 30.25 27.5H24.75C23.9708 27.5 23.3177 27.7635 22.7906 28.2905C22.2635 28.8178 22 29.4709 22 30.25C22 31.0291 22.2635 31.6822 22.7906 32.2092C23.3177 32.7366 23.9708 32.9999 24.75 32.9999ZM24.75 24.75H41.2499C42.029 24.75 42.6824 24.4865 43.2094 23.9594C43.7364 23.4323 44.0001 22.7791 44.0001 22C44.0001 21.2208 43.7364 20.5677 43.2094 20.0406C42.6824 19.5135 42.029 19.25 41.2499 19.25H24.75C23.9708 19.25 23.3177 19.5135 22.7906 20.0406C22.2635 20.5677 22 21.2208 22 22C22 22.7791 22.2635 23.4323 22.7906 23.9594C23.3177 24.4865 23.9708 24.75 24.75 24.75ZM24.75 16.5H41.2499C42.029 16.5 42.6824 16.2365 43.2094 15.7094C43.7364 15.1823 44.0001 14.5291 44.0001 13.75C44.0001 12.9708 43.7364 12.3177 43.2094 11.7906C42.6824 11.2635 42.029 11 41.2499 11H24.75C23.9708 11 23.3177 11.2635 22.7906 11.7906C22.2635 12.3177 22 12.9708 22 13.75C22 14.5291 22.2635 15.1823 22.7906 15.7094C23.3177 16.2365 23.9708 16.5 24.75 16.5ZM16.5 44.0001C14.9875 44.0001 13.6927 43.4616 12.6156 42.3844C11.5385 41.3073 11 40.0124 11 38.5V5.49998C11 3.98749 11.5385 2.6927 12.6156 1.61561C13.6927 0.538527 14.9875 0 16.5 0H49.4999C51.0126 0 52.3072 0.538527 53.3843 1.61561C54.4614 2.6927 55 3.98749 55 5.49998V38.5C55 40.0124 54.4614 41.3073 53.3843 42.3844C52.3072 43.4616 51.0126 44.0001 49.4999 44.0001H16.5ZM16.5 38.5H49.4999V5.49998H16.5V38.5ZM5.49998 55C3.98749 55 2.6927 54.4614 1.61561 53.3843C0.538527 52.3072 0 51.0126 0 49.4999V13.75C0 12.9708 0.263538 12.3177 0.790614 11.7906C1.31769 11.2635 1.97083 11 2.74999 11C3.52915 11 4.18229 11.2635 4.70936 11.7906C5.23644 12.3177 5.49998 12.9708 5.49998 13.75V49.4999H41.2499C42.029 49.4999 42.6824 49.7636 43.2094 50.2906C43.7364 50.8176 44.0001 51.4707 44.0001 52.2501C44.0001 53.0292 43.7364 53.6823 43.2094 54.2093C42.6824 54.7363 42.029 55 41.2499 55H5.49998Z" fill="#12636A"></path></svg></div>
+                                    <div class="cardTitle">
+                                       Masterwork
+                                       </div>
+                                 </div>
+                              </div>
+                              <div class="right mt-4">
+                                 <div class="smallCard d-flex flex-column justify-content-center align-items-center">
+                                    <div class="cardIcon"><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                                          <path d="M24.75 32.9999H30.25C31.0291 32.9999 31.6822 32.7366 32.2092 32.2092C32.7366 31.6822 32.9999 31.0291 32.9999 30.25C32.9999 29.4709 32.7366 28.8178 32.2092 28.2905C31.6822 27.7635 31.0291 27.5 30.25 27.5H24.75C23.9708 27.5 23.3177 27.7635 22.7906 28.2905C22.2635 28.8178 22 29.4709 22 30.25C22 31.0291 22.2635 31.6822 22.7906 32.2092C23.3177 32.7366 23.9708 32.9999 24.75 32.9999ZM24.75 24.75H41.2499C42.029 24.75 42.6824 24.4865 43.2094 23.9594C43.7364 23.4323 44.0001 22.7791 44.0001 22C44.0001 21.2208 43.7364 20.5677 43.2094 20.0406C42.6824 19.5135 42.029 19.25 41.2499 19.25H24.75C23.9708 19.25 23.3177 19.5135 22.7906 20.0406C22.2635 20.5677 22 21.2208 22 22C22 22.7791 22.2635 23.4323 22.7906 23.9594C23.3177 24.4865 23.9708 24.75 24.75 24.75ZM24.75 16.5H41.2499C42.029 16.5 42.6824 16.2365 43.2094 15.7094C43.7364 15.1823 44.0001 14.5291 44.0001 13.75C44.0001 12.9708 43.7364 12.3177 43.2094 11.7906C42.6824 11.2635 42.029 11 41.2499 11H24.75C23.9708 11 23.3177 11.2635 22.7906 11.7906C22.2635 12.3177 22 12.9708 22 13.75C22 14.5291 22.2635 15.1823 22.7906 15.7094C23.3177 16.2365 23.9708 16.5 24.75 16.5ZM16.5 44.0001C14.9875 44.0001 13.6927 43.4616 12.6156 42.3844C11.5385 41.3073 11 40.0124 11 38.5V5.49998C11 3.98749 11.5385 2.6927 12.6156 1.61561C13.6927 0.538527 14.9875 0 16.5 0H49.4999C51.0126 0 52.3072 0.538527 53.3843 1.61561C54.4614 2.6927 55 3.98749 55 5.49998V38.5C55 40.0124 54.4614 41.3073 53.3843 42.3844C52.3072 43.4616 51.0126 44.0001 49.4999 44.0001H16.5ZM16.5 38.5H49.4999V5.49998H16.5V38.5ZM5.49998 55C3.98749 55 2.6927 54.4614 1.61561 53.3843C0.538527 52.3072 0 51.0126 0 49.4999V13.75C0 12.9708 0.263538 12.3177 0.790614 11.7906C1.31769 11.2635 1.97083 11 2.74999 11C3.52915 11 4.18229 11.2635 4.70936 11.7906C5.23644 12.3177 5.49998 12.9708 5.49998 13.75V49.4999H41.2499C42.029 49.4999 42.6824 49.7636 43.2094 50.2906C43.7364 50.8176 44.0001 51.4707 44.0001 52.2501C44.0001 53.0292 43.7364 53.6823 43.2094 54.2093C42.6824 54.7363 42.029 55 41.2499 55H5.49998Z" fill="#12636A"></path></svg></div>
+                                    <div class="cardTitle">
+                                       Masterwork
+                                       </div>
+                                 </div>
+                                 <div class="smallCard d-flex flex-column justify-content-center align-items-center">
+                                    <div class="cardIcon"><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                                          <path d="M24.75 32.9999H30.25C31.0291 32.9999 31.6822 32.7366 32.2092 32.2092C32.7366 31.6822 32.9999 31.0291 32.9999 30.25C32.9999 29.4709 32.7366 28.8178 32.2092 28.2905C31.6822 27.7635 31.0291 27.5 30.25 27.5H24.75C23.9708 27.5 23.3177 27.7635 22.7906 28.2905C22.2635 28.8178 22 29.4709 22 30.25C22 31.0291 22.2635 31.6822 22.7906 32.2092C23.3177 32.7366 23.9708 32.9999 24.75 32.9999ZM24.75 24.75H41.2499C42.029 24.75 42.6824 24.4865 43.2094 23.9594C43.7364 23.4323 44.0001 22.7791 44.0001 22C44.0001 21.2208 43.7364 20.5677 43.2094 20.0406C42.6824 19.5135 42.029 19.25 41.2499 19.25H24.75C23.9708 19.25 23.3177 19.5135 22.7906 20.0406C22.2635 20.5677 22 21.2208 22 22C22 22.7791 22.2635 23.4323 22.7906 23.9594C23.3177 24.4865 23.9708 24.75 24.75 24.75ZM24.75 16.5H41.2499C42.029 16.5 42.6824 16.2365 43.2094 15.7094C43.7364 15.1823 44.0001 14.5291 44.0001 13.75C44.0001 12.9708 43.7364 12.3177 43.2094 11.7906C42.6824 11.2635 42.029 11 41.2499 11H24.75C23.9708 11 23.3177 11.2635 22.7906 11.7906C22.2635 12.3177 22 12.9708 22 13.75C22 14.5291 22.2635 15.1823 22.7906 15.7094C23.3177 16.2365 23.9708 16.5 24.75 16.5ZM16.5 44.0001C14.9875 44.0001 13.6927 43.4616 12.6156 42.3844C11.5385 41.3073 11 40.0124 11 38.5V5.49998C11 3.98749 11.5385 2.6927 12.6156 1.61561C13.6927 0.538527 14.9875 0 16.5 0H49.4999C51.0126 0 52.3072 0.538527 53.3843 1.61561C54.4614 2.6927 55 3.98749 55 5.49998V38.5C55 40.0124 54.4614 41.3073 53.3843 42.3844C52.3072 43.4616 51.0126 44.0001 49.4999 44.0001H16.5ZM16.5 38.5H49.4999V5.49998H16.5V38.5ZM5.49998 55C3.98749 55 2.6927 54.4614 1.61561 53.3843C0.538527 52.3072 0 51.0126 0 49.4999V13.75C0 12.9708 0.263538 12.3177 0.790614 11.7906C1.31769 11.2635 1.97083 11 2.74999 11C3.52915 11 4.18229 11.2635 4.70936 11.7906C5.23644 12.3177 5.49998 12.9708 5.49998 13.75V49.4999H41.2499C42.029 49.4999 42.6824 49.7636 43.2094 50.2906C43.7364 50.8176 44.0001 51.4707 44.0001 52.2501C44.0001 53.0292 43.7364 53.6823 43.2094 54.2093C42.6824 54.7363 42.029 55 41.2499 55H5.49998Z" fill="#12636A"></path></svg></div>
+                                    <div class="cardTitle">
+                                       Masterwork
+                                       </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="cardButtonWrapper mt-5 mt-md-0 hidecard"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="container mt-4 px-4"></div>
+               </article>
+            </div>
+         </div>
+      </div>
+      <footer class="sticky-lg-bottom">
+         <div class="container"><span class="credit">
+               © Aurigo Software Technologies Inc.
+               </span></div>
+      </footer>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+         <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5><button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button></div>
+         <div class="offcanvas-body">
+            <nav id="myUL2">
+               <ul class="map">
+                  <li class="topicref topichead">
+                     <div class="caret d-flex justify-content-between">
+                        <div class="d-flex align-items-center iconAndTitle">System Administration</div><svg xmlns="http://www.w3.org/2000/svg" class="menu__icon" width="25" height="25" viewBox="0 0 24 24">
+                           <path fill="currentColor" d="M11.7 15.3q-.475.475-1.087.213T10 14.575v-5.15q0-.675.613-.938T11.7 8.7l2.6 2.6q.15.15.225.325T14.6 12q0 .2-.075.375t-.225.325l-2.6 2.6Z"></path></svg></div>
+                     <ul class="nested">
+                        <li class="topicref"><a href="Masterworks/Administration/Admin.html">Administration</a></li>
+                        <li class="topicref"><a href="Masterworks/Administration/System_Configurations/SysConfig.html">System Configurations</a><ul class="nested">
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/App_Settings.html"> Application Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/AuthLoginSettings.html">Authentication and Login Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/WFSettings.html">Workflow Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/ConfigMobSettings.html">Mobile Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/GIS/GIS_Settings/GIS.html">GIS</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/System_Configurations/GIS/GIS_Settings/GIS_Configuration.html">GIS Settings</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/System_Configurations/GIS/ESRI_Logs.html">ESRI Logs</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Funct_Cnfig.html">Functional Configurations</a><ul class="nested">
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Featuresettngs.html">Feature Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/CnfigPlngMgmt.html">Configuring Planning Management</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/CnfigBdgtMgmt.html">Configuring Budget Management</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/ConfigCntMgmt.html">Managing Contract Configurations</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/CnfigRsrceMgmt.html">Configuring Resource Management</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/IssueLogColorConfig.html">Configuring the Issue Log List Page</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/MobAppSettings.html">Configuring Mobile Application Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/MeetingSettings.html">Enabling Meeting Scheduler</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/ImpNotifics.html">Important Notifications</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Report_Management/RepMgmt.html">Report Management</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Report_Management/CnfigRep.html">Configuring a Report</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Report_Management/UnsubsReps.html">Unsubscribing to Reports</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Business_Units/BUs.html">Business Units</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Business_Units/CreateBU.html">Creating a Business Unit</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Business_Units/AssignBUtoUser.html">Assigning Business Units to a User</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Business_Units/RevokeBU.html">Revoking Business Units from a User Account</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Functional_Configurations/Business_Units/DeactBU.html">Deactivating Business Units</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="topicref"><a href="Masterworks/Administration/User_Management/UserMgmt.html">User Management</a><ul class="nested">
+                              <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/UserAccs.html">User Accounts</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/Creating_User_Account/CreateUserAcc.html">Creating a User Account</a></li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/Creating_User_Account/CreateUserAccsBulk.html">Creating Multiple User Accounts in Bulk</a></li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/EditUserAccDets.html">Editing User Account Details</a></li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/ChangePassword.html">Changing the Password of a User Account</a></li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/Changing_the_Status_of_a_User_Account/UserAccStatus.html">Changing the Status of a User Account</a><ul class="nested">
+                                          <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/Changing_the_Status_of_a_User_Account/ActUsrAcc.html">Activating a User Account</a></li>
+                                          <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/Changing_the_Status_of_a_User_Account/DeActUserAcc.html">Deactivating a User Account</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/UnlockUsrAcc.html">Unlocking a User Account</a></li>
+                                    <li class="topicref"><a href="Masterworks/CoSP/Administration/User_Management/User_Accounts/GenUsrAccReps.html">Generating User Accounts Reports</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Security_Roles/SecurityRoles.html">Security Roles</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Security_Roles/CreateRole.html">Creating Security Roles</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Security_Roles/AssignRoletoUsr.html">Assigning a Role to Users</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Security_Roles/EditRoleInfo.html">Editing Role Information</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Security_Roles/DelSecRole.html">Deleting a Security Role</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Permissions/ConfigRolePerms.html">Permissions</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Permissions/ConfigPerms-Role.html">Configuring Role Permissions</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Permissions/ConfigPerm-Form.html">Configuring Form Permissions</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Permissions/ConfigPermis-Bulk.html">Configuring Permissions in Bulk Using an Excel Workbook</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Auto_Invite/AutoInvite.html">Auto Invite</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Auto_Invite/CrtAIRule.html">Creating an Auto Invite Rule</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Auto_Invite/EditAIRule.html">Editing an Auto Invite Rule</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Auto_Invite/ExctAIRul.html">Administering an Auto Invite Rule</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Auto_Invite/DelAIRule.html">Deleting an Auto Invite Rule</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Registrations/OnlineAccRegs.html">Managing Online Account Registration Requests</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Registrations/ApprPndRegReq.html">Approving a Pending Registration Request</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Registrations/RjctPndRegReq.html">Rejecting a Pending Registration Request</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/System_Configurations/Authentication_and_Login_Settings_with_AIS/EIP_User.html">External Identity Provider User</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Users/Online_Users.html">Online Users</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Users/ViewOnlineUsrs.html">Viewing the List of Online Users</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Online_Users/LogOffUserRemotely.html">Logging Out a User</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/UsrAcctn_config.html">User Settings</a></li>
+                              <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/DOA.html">Delegation of Authority</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/Delegate.html">Delegating Authorities</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/EditDOA.html">Editing Delegation Details</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/ViewDOA.html">Viewing Delegation Details</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/RevkDeleg.html">Revoking a Delegation</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/User_Management/Delegation_of_Authority/DelDOA.html">Deleting a Delegated Record</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/ConfigToolkit.html">Configuration Toolkit</a><ul class="nested">
+                              <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/WFMgmt.html">Workflow Management</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/CreateWF.html">Creating a Workflow</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/CreateWFSimple.html">Creating a Workflow Using Simple Mode</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/CreateWFAdv.html">Creating a Workflow Using Advanced Mode</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/EditWF.html">Editing a Workflow</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Workflow_Management/PublishWF.html">Publishing a Workflow</a></li>
+                                 </ul>
+                              </li>
+                              <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Form_Builder/FormBuilder.html">Form Builder</a><ul class="nested">
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Form_Builder/ImportingXMLFileorFormintoFormBuilder.html">Importing XML File or Form into Form Builder</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Form_Builder/UsingFormBuilder.html">Creating a Form Using Form Builder</a></li>
+                                    <li class="topicref"><a href="Masterworks/Administration/Configuration_Toolkit/Form_Builder/PublishForm.html">Publishing a Form</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="topicref"><a href="Masterworks/CoSP/Administration/ViewntegrLogs.html">Viewing the Integration Logs</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div><script src="ditasearch.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script><script language="javascript" src="js/commonJS.js"></script><script language="javascript" src="js/tocLanding.js"></script></body>
+</html>
