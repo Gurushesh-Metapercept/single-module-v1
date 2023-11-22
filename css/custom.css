@@ -2339,3 +2339,9 @@ figcaption > .fig--title-label {
   font-weight: bold !important;
   color: var(--primary-400) !important;
 }
+
+
+.uicontrol,
+.table td {
+  word-break: break-word;
+}
