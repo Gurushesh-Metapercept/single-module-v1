@@ -318,14 +318,15 @@ document.addEventListener("DOMContentLoaded", () => {
   function wrapMatchedText(li, inputValue) {
     const anchor = li.querySelector("a");
     const text = anchor.innerText;
-    const words = text.split(' '); // Split text into words
-    const highlightedWords = words.map(word => {
-      if (word.toLowerCase().includes(inputValue.toLowerCase())) {
-        return `<span class="searchKeywordHighlighted">${word}</span>`;
-      }
-      return word;
-    });
-    anchor.innerHTML = highlightedWords.join(' '); // Join the words back into a string and set as innerHTML
+
+    // Check if the entire inputValue exists in the text
+    if (text.toLowerCase().includes(inputValue.toLowerCase())) {
+      const highlightedText = text.replace(
+        new RegExp(inputValue, "gi"),
+        `<span class="searchKeywordHighlighted">$&</span>`
+      );
+      anchor.innerHTML = highlightedText;
+    }
   }
 
   function myFunction(inputValue) {
